@@ -1,0 +1,10 @@
+[package]
+name = "cargo_check_issue"
+version = "0.1.0"
+authors = ["thiolliere <guillaume.thiolliere@opmbx.org>"]
+
+[dependencies]
+a = { path = "src/a/" }
+
+[workspace]
+members = ["src/a"]
